@@ -1,0 +1,89 @@
+/*
+Theme Name: Simply
+Theme URI: https://renekirk.com/themes/simply
+Author: René Kirk
+Author URI: https://renekirk.com
+Description: Clean and simple WordPress theme build with Bootstrap
+Version: 1.0
+Text Domain: simply
+*/
+
+/*@import "css/bootstrap.css";*/
+/*@import "css/font-awesome.min.css";*/
+/*@import url(//fonts.googleapis.com/css?family=Noto+Serif:400,700,400italic);*/
+
+/*! Novencento Wide - A free font available here http://typography.synthview.com/ */
+@font-face { font-family: 'Novecentowide'; src: url("fonts/Novecentowide.woff") format("woff"), url("fonts/Novecentowide.ttf") format("truetype"); }
+
+html { font: 100%/1.2em sans-serif; }
+body { -webkit-hyphens: auto; -moz-hyphens: auto; -ms-hyphens: auto; hyphens: auto; word-wrap: break-word; font-family: "Noto Serif", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; font-weight: 400; font-size: 100%; color: #555555; }
+.header { background-color: #f0f0f0; padding: 40px 0 40px 0; }
+.header .main-nav { float: right; }
+.header .main-nav ul { margin: 0; padding: 0; }
+.header a { text-decoration: none; font-family: 'Novecentowide', "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; font-weight: normal; color: #333333 !important; }
+.header .main-nav li { margin-left: 1em; display: inline-block; }
+.header .main-nav li a { font-size: 0.8em; }
+.header h1.blog-name { margin: 0 !important; float: left; font-size: 1.4em; }
+h1.blog-name > a { text-decoration: none; font-family: 'Novecentowide', "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; font-weight: normal;color: #333333; margin: 0;}
+article, aside, figure, footer, header, hgroup, nav, section, img { display: block; }
+.main_container { margin-top: 60px; }
+.footer-container { margin-top: 100px; }
+.footer-container .col-md-8 { border-top: 1px solid #e9e9e9; padding: 50px; text-align: center; }
+.single-post .post-article { border-bottom: none; }
+
+.post-article:last-of-type, .page-article:last-of-type { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+.post-article, .page-article { margin-bottom: 4em; padding-bottom: 4em; border-bottom: 1px dashed #e9e9e9; }
+.post-article img { max-width: 100%; }
+article, aside, figure, footer, header, hgroup, nav, section, img { display: block; }
+.post-date { display: block; text-align: center; margin-bottom: 3em; color: #bbbbbb; font-size: 0.9em; font-weight: bold; text-transform: uppercase; font-family: 'Helvetica Neue', sans-serif; }
+.post-title { font-family: 'Novecentowide', "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; font-weight: normal; color: #333333; font-size: 2.2em; text-align: center; line-height: 1.2em; }
+.post-title a { color: #333333; }
+a { color: #fa5d5a; }
+a:hover, a:focus { opacity: 0.8; text-decoration: underline; color: #fa5d5a; }
+.post-title a:hover, .post-title a:focus {opacity: 0.8;text-decoration: none;}
+.post-excerpt { text-align: justify; line-height: 1.9em; margin-top: 1.4em;font-weight:400;}
+.post-excerpt p { margin-bottom: 20px; font-size: 1.2em;}
+
+img.alignright {float:right; margin:0 0 1em 1em}
+img.alignleft {float:left; margin:0 1em 1em 0}
+img.aligncenter {display: block; margin-left: auto; margin-right: auto}
+a img.alignright {float:right; margin:0 0 1em 1em}
+a img.alignleft {float:left; margin:0 1em 1em 0}
+a img.aligncenter {display: block; margin-left: auto; margin-right: auto}
+
+.inline-block { display: inline-block; }
+.ib-left { float: left; }
+.ib-right { float: right; }
+
+.post-category { margin-top: 60px; }
+.post-category > a { padding: 7px 10px; background: #f3f3f3; font-size: 90%; color: #333; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; }
+.post-category > a:hover { background: #e3e3e3; text-decoration: none; }
+
+blockquote { font-style: italic; }
+
+.post-comments { margin-top: 60px; }
+.post-comments h3 { margin-bottom: 30px; text-align: center; font-style: italic; }
+
+p.comment-notes { display: none; }
+
+ol.comment-list { margin: 0; padding: 0; }
+ol.comment-list > li { list-style: none; }
+
+.comment-author > img { float: right; border-radius: 50%; }
+
+li.media { border-bottom: 1px solid #f3f3f3; margin: 20px 0 40px 0; padding-bottom: 20px; }
+li.media:last-of-type { border-bottom: none !important; }
+li.media > .media-body { text-align:justify; line-height: 1.6em; }
+li.media > .media-body > time { font-size: 90%; font-style: italic; }
+li.media > .media-body > .media-heading { display: inline-block; }
+li.media > .children > li { border-bottom: none !important; }
+li.media > .media-body > img {
+    float: right;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+.comment-respond > form > textarea, input { margin-bottom: 20px; }
