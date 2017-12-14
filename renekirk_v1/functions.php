@@ -4,7 +4,7 @@
  * Defining the Google Analytics account
  * Please remember to change this.
  */
-define('GA_ACCOUNT', 'UA-106087259-1');
+define('GA_ACCOUNT', 'UA-XXXXXXXX-1');
 
 /**
  * Registering the menus
