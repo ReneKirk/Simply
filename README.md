@@ -2,7 +2,7 @@
 
 This is a free & open-sourced theme for WordPress.
 
-**NOTE: Google Analytics code is saved locally in this theme; js/google-analytics.js**
+**NOTE: Google Analytics code is saved locally in this theme; js/google-analytics.js. Please remember to change the Google Analytics ID in functions.php at line 7**
 
 Tested up to WordPress 4.9.1
 
