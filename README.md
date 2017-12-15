@@ -15,3 +15,5 @@ Author: René Kirk
 Author URL: https://renekirk.com
 
 GitHub: https://github.com/ReneKirk/Simply
+
+Demo: https://renekirk.com
